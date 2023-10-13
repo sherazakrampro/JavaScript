@@ -32,3 +32,9 @@ console.log(url.replace("%20", "-"));
 console.log(url.includes("ahmad"));
 
 console.log(gameName.split("-"));
+
+let myName = "Sheraz Akram";
+
+console.log(myName.toUpperCase());
+
+console.log(myName.toLowerCase());
