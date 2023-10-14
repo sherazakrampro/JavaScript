@@ -28,6 +28,7 @@ console.log(Math.random());
 console.log(Math.random() * 10 + 1);
 console.log(Math.floor(Math.random() * 10) + 1);
 
+// it will generate a random number between 10 and 20
 const min = 10;
 const max = 20;
 
