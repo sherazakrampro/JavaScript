@@ -25,8 +25,8 @@ function one() {
 // one()
 
 if (true) {
-  const username = "hitesh";
-  if (username === "hitesh") {
+  const username = "sheraz";
+  if (username === "sheraz") {
     const website = " youtube";
     // console.log(username + website);
   }
