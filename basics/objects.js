@@ -6,12 +6,12 @@
 const mySym = Symbol("key1");
 
 const JsUser = {
-  name: "Hitesh",
-  "full name": "Hitesh Choudhary",
+  name: "Sheraz",
+  "full name": "Sheraz Akram",
   [mySym]: "mykey1",
   age: 18,
-  location: "Jaipur",
-  email: "hitesh@google.com",
+  location: "Gujrat",
+  email: "sheraz@google.com",
   isLoggedIn: false,
   lastLoginDays: ["Monday", "Saturday"],
 };
@@ -21,9 +21,9 @@ const JsUser = {
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com";
+JsUser.email = "sheraz@chatgpt.com";
 // Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com";
+JsUser.email = "sheraz@microsoft.com";
 // console.log(JsUser);
 
 JsUser.greeting = function () {
@@ -42,7 +42,7 @@ console.log(JsUser.greetingTwo());
 const tinderUser = {};
 
 tinderUser.id = "123abc";
-tinderUser.name = "Sammy";
+tinderUser.name = "Sam";
 tinderUser.isLoggedIn = false;
 
 // console.log(tinderUser);
@@ -51,8 +51,8 @@ const regularUser = {
   email: "some@gmail.com",
   fullname: {
     userfullname: {
-      firstname: "hitesh",
-      lastname: "choudhary",
+      firstname: "sheraz",
+      lastname: "akram",
     },
   },
 };
@@ -94,9 +94,9 @@ users[1].email;
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 const course = {
-  coursename: "js in hindi",
+  coursename: "js in urdu",
   price: "999",
-  courseInstructor: "hitesh",
+  courseInstructor: "sheraz",
 };
 
 // course.courseInstructor
@@ -107,8 +107,8 @@ const { courseInstructor: instructor } = course;
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "name": "sheraz",
+//     "coursename": "js in urdu",
 //     "price": "free"
 // }
 

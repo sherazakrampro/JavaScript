@@ -1,10 +1,10 @@
 function sayMyName() {
-  console.log("H");
-  console.log("I");
-  console.log("T");
-  console.log("E");
   console.log("S");
   console.log("H");
+  console.log("E");
+  console.log("R");
+  console.log("A");
+  console.log("Z");
 }
 
 // sayMyName()
@@ -42,7 +42,7 @@ function calculateCartPrice(val1, val2, ...num1) {
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-  username: "hitesh",
+  username: "sheraz",
   prices: 199,
 };
 
